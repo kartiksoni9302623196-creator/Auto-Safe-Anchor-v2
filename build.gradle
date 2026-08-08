@@ -15,6 +15,13 @@ repositories {
 }
 
 loom {
+    mods {
+        "modid" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
 	
 
 	mods {
